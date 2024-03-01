@@ -1,4 +1,5 @@
    #!/bin/bash
+   apt update
    apt install git curl build-essential wget -y
    timedatectl set-timezone America/Sao_Paulo
    bash -c "echo blacklist nouveau > /etc/modprobe.d/blacklist-nvidia-nouveau.conf"
